@@ -1,5 +1,12 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: darkgray;
+}
 .App {
   text-align: center;
+  margin-top: 250px;
+  padding: 0rem;
 }
 
 .App-logo {
@@ -35,4 +42,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.character {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  border-radius: 100%;
+  background-color: darkkhaki;
+  padding: 4px;
+  padding-left: 0.6rem;
+}
+.letter {
+  margin-top: 40px;
 }
